@@ -33,7 +33,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]   # change if your default branch isn't main
+    branches: [ master ]   # change if your default branch isn't main
   workflow_dispatch:
 
 permissions:

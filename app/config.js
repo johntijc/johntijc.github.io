@@ -1,5 +1,5 @@
 // Your name appears in the top navigation and page titles.
-export const name = "Your Name";
+export const name = "John Collins";
 export const websiteDescription = `${name}'s personal website.`;
 
 // Add, remove, or reorder links here. href accepts local paths or external URLs.
@@ -14,17 +14,16 @@ export const navigationLinks = [
 // Edit the main introduction separately in app/components/intro.mdx.
 export const ownerProfile = {
   photo: {
-    filename: "",
+    filename: "20260907_185253.jpg",
     alt: `Portrait of ${name}`,
   },
   facts: [
-    { label: "Now", value: "Your current role or location" },
-    { label: "Studying", value: "What you're studying or working on" },
-    { label: "Interests", value: "Your main interests" },
+    { label: "Now", value: "Student at Mass Tech" },
+    { label: "Studying", value: "Deep Learning, AI Safety" },
+    { label: "Interests", value: "Unsupervised learning, AI safety, computational biology, systems programming" },
     {
       label: "Contact",
-      value: "you@example.com",
-      href: "mailto:you@example.com",
+      value: "[first name] t i j [last initial] [organization suffix], no spaces",
     },
   ],
   // Heading for the links section below the profile facts.
@@ -32,8 +31,8 @@ export const ownerProfile = {
   // Replace these example URLs with yours.
   // Add, remove, or reorder entries; use [] to hide the list.
   links: [
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/your-username/" },
-    { label: "Google Scholar", href: "https://scholar.google.com/citations?user=your-id" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/john-collins-a34810437/" },
+    //{ label: "Google Scholar", href: "https://scholar.google.com/citations?user=your-id" },
   ],
 };
 
