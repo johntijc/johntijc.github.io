@@ -27,12 +27,12 @@ export const projectsPage: {
   projects: Project[]
 } = {
   projects: [
-    {
+    /*{
       id: 'example-project',
-      title: 'Example project',
+      title: '',
       description:
-        'Describe what you worked on, the problem it solves, and your contribution. Include what you learned or the impact of the finished work.',
-      date: '2025 – Present',
+        '',
+      date: '2026 – Present',
       details: [
         { label: 'Role', value: 'Designer & developer' },
         { label: 'Status', value: 'In progress' },
@@ -56,6 +56,6 @@ export const projectsPage: {
       description:
         'A project can be as simple as a title and description. Add photos, links, dates, or other details when they help tell the story.',
       date: 'June 2024',
-    },
+    },*/
   ],
 }
