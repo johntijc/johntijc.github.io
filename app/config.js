@@ -31,6 +31,7 @@ export const ownerProfile = {
   // Replace these example URLs with yours.
   // Add, remove, or reorder entries; use [] to hide the list.
   links: [
+    { label: "Resume", href: "resume-john.pdf"},
     { label: "LinkedIn", href: "https://www.linkedin.com/in/john-collins-a34810437/" },
     //{ label: "Google Scholar", href: "https://scholar.google.com/citations?user=your-id" },
   ],
